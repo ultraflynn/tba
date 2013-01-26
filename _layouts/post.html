@@ -1,0 +1,20 @@
+---
+layout: base
+---
+
+{% assign pageName = 'index' %}
+{% include nav.html %}
+
+<div class="entry-content well">
+  <h2>{{ page.title }}</h2>
+  <span class="date" title="{{ page.date }}">
+    <span class="published">Published: </span>
+    <span class="day">{{ page.date | date: '%d' }}</span>
+    <span class="month">
+      <abbr>{{ page.date | date: '%b' }}</abbr>
+    </span>
+    <span class="year">{{ page.date | date: '%Y' }}</span>
+  </span>
+  {{ content }}
+</div>
+

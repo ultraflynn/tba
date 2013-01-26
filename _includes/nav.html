@@ -1,0 +1,17 @@
+      <div class="navbar">
+        <div class="navbar-inner">
+          <a class="brand" href="/">T-Baggers Anonymous</a>
+          <ul class="nav">
+            <li {% if pageName == 'index' %}
+              class="active"
+              {% endif %} >
+              <a href="/">Home</a>
+            </li>
+            <li {% if pageName == 'archive' %}
+              class="active"
+              {% endif %} >
+              <a href="/archive/">Archive</a>
+            </li>
+          </ul>
+        </div>
+      </div>
