@@ -2,6 +2,7 @@
 layout: post
 title: Hello Flynn
 published: true
+comments: true
 tags:
 - server-art
 ---

@@ -2,6 +2,7 @@
 layout: post
 title: Why cant boss stop dancing
 published: true
+comments: true
 tags:
 - server-art
 ---
