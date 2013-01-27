@@ -2,6 +2,7 @@
 layout: post
 title: The Evolution of Tea Bagging
 published: true
+comments: true
 tags:
 - server-art
 ---
