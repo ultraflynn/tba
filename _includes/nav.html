@@ -1,7 +1,7 @@
-      <div class="navbar">
+      <div class="navbar navbar-static">
         <div class="navbar-inner">
           <a class="brand" href="/">T-Baggers Anonymous</a>
-          <ul class="nav">
+          <ul class="nav nav-pills">
             <li {% if pageName == 'index' %}
               class="active"
               {% endif %} >
@@ -13,5 +13,19 @@
               <a href="/archive/">Archive</a>
             </li>
           </ul>
+          <ul class="nav pull-right">
+            <li id="link-menu" class="dropdown">
+              <a href="#" id="links" role="button" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
+              <ul class="dropdown-menu" role="menu" aria-labelledby="drop3">
+                <li><a target="_blank" href="http://battlelog.battlefield.com/bf3/platoon/2832655391515084772/">Battlelog</a></li>
+                <li><a target="_blank" href="http://battlelog.battlefield.com/bf3/platoon/2832655391515084772/listmembers/">Members</a></li>
+                <li><a target="_blank" href="http://battlelog.battlefield.com/bf3/platoon/2832655391515084772/stats/">Platoon Stats</a></li>
+                <li><a target="_blank" href="http://bf3stats.com/server/360_bf5c0757-6d02-41d7-ac6e-ba4cf3933840">Server</a></li>
+                <li class="divider"></li>
+                <li><a target="_blank" href="http://www.urbandictionary.com/define.php?term=Tea-Bag">[tee-bag-ing]</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
+
