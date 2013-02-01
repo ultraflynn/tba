@@ -1,0 +1,11 @@
+---
+layout: post
+title: Ricky
+published: true
+comments: true
+tags:
+- server-art
+---
+
+<img src="/images/bianca-ricky.jpg" class="img-polaroid"/>
+
